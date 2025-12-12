@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-bg-light-main: linear-gradient(180deg, #ebf2fc 0%, #eef8f9 100%);
+  --color-bg-dark-main: linear-gradient(180deg, #040918 0%, #091540 100%);
+  --color-button-light-bg: hsl(0, 0%, 90%);
+  --color-button-dark-bg: hsl(227, 23%, 24%);
+  --color-border-light-color: hsl(217, 61%, 90%);
+  --color-border-dark-color: hsl(224, 21%, 28%);
+  --color-light-surface: hsl(216, 100%, 99%);
+  --color-dark-surface: hsl(224, 26%, 16%);
+  --color-text-light-muted: #66686b;
+  --color-text-dark-muted: #babeca;
+  --color-text-muted-light: #66686b;
+  --color-text-muted-dark: #babeca;
+  --color-accent-light: hsl(3, 77%, 44%);
+  --color-accent-dark: hsl(3, 86%, 64%);
+  --color-button-text-light: #000;
+  --color-button-text-dark: #fff;
+
+  --font-noto: "Noto Sans", sans-serif;
+}
